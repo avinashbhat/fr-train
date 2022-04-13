@@ -3,6 +3,12 @@
 #### Authors: Yuji Roh, Kangwook Lee, Steven Euijong Whang, and Changho Suh
 #### In Proceedings of the 37th International Conference on Machine Learning (ICML), 2020
 
+---
+##### COMP 551 Edit 
+ - Added frtrain_clean.py and frtrain_poisoned.py (working)
+ - Running time < 20 seconds for both the files
+---
+
 This directory is for simulating FR-Train 
 [https://arxiv.org/abs/2002.10234, ICML 2020] on synthetic dataset.
 The program needs PyTorch and Jupyter Notebook.
