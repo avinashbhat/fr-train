@@ -5,7 +5,7 @@
 
 ---
 ##### COMP 551 Edit 
- - Added frtrain_clean.py and frtrain_poisoned.py (working)
+ - Added [frtrain_clean.py](https://github.com/avinashbhat/fr-train/blob/master/frtrain_clean.py) and [frtrain_poisoned.py](https://github.com/avinashbhat/fr-train/blob/master/frtrain_poisoned.py) (working)
  - Running time < 20 seconds for both the files
 ---
 
