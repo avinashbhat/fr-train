@@ -1,0 +1,290 @@
+W:\myCourses\COMP550_NLP\project\gsage_pyt\Scripts\python.exe W:/myCourses/COMP_551_AML/a4/fr-train/frtrain_clean.py
+--------------------- Number of Data -------------------------
+Train data : 1800, Validation data : 200, Test data : 1000
+--------------------------------------------------------------
+[Lambda_f: 0.100000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.100000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.100000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.100000] [Epoch 600/4000] [D_F loss: 0.625694] [D_R loss: 0.659043] [G loss: -0.175348]
+[Lambda_f: 0.100000] [Epoch 800/4000] [D_F loss: 0.607116] [D_R loss: 0.644620] [G loss: -0.165607]
+[Lambda_f: 0.100000] [Epoch 1000/4000] [D_F loss: 0.598278] [D_R loss: 0.633544] [G loss: -0.157219]
+[Lambda_f: 0.100000] [Epoch 1200/4000] [D_F loss: 0.596344] [D_R loss: 0.625003] [G loss: -0.150191]
+[Lambda_f: 0.100000] [Epoch 1400/4000] [D_F loss: 0.596106] [D_R loss: 0.617380] [G loss: -0.144472]
+[Lambda_f: 0.100000] [Epoch 1600/4000] [D_F loss: 0.596699] [D_R loss: 0.610268] [G loss: -0.139741]
+[Lambda_f: 0.100000] [Epoch 1800/4000] [D_F loss: 0.597672] [D_R loss: 0.603528] [G loss: -0.135832]
+[Lambda_f: 0.100000] [Epoch 2000/4000] [D_F loss: 0.598794] [D_R loss: 0.597040] [G loss: -0.132562]
+[Lambda_f: 0.100000] [Epoch 2200/4000] [D_F loss: 0.599907] [D_R loss: 0.590710] [G loss: -0.129671]
+[Lambda_f: 0.100000] [Epoch 2400/4000] [D_F loss: 0.600915] [D_R loss: 0.584480] [G loss: -0.127067]
+[Lambda_f: 0.100000] [Epoch 2600/4000] [D_F loss: 0.601813] [D_R loss: 0.578309] [G loss: -0.124685]
+[Lambda_f: 0.100000] [Epoch 2800/4000] [D_F loss: 0.602576] [D_R loss: 0.572150] [G loss: -0.122409]
+[Lambda_f: 0.100000] [Epoch 3000/4000] [D_F loss: 0.603199] [D_R loss: 0.565987] [G loss: -0.120219]
+[Lambda_f: 0.100000] [Epoch 3200/4000] [D_F loss: 0.603712] [D_R loss: 0.559835] [G loss: -0.118134]
+[Lambda_f: 0.100000] [Epoch 3400/4000] [D_F loss: 0.604122] [D_R loss: 0.553688] [G loss: -0.116065]
+[Lambda_f: 0.100000] [Epoch 3600/4000] [D_F loss: 0.604441] [D_R loss: 0.547549] [G loss: -0.114034]
+[Lambda_f: 0.100000] [Epoch 3800/4000] [D_F loss: 0.604691] [D_R loss: 0.541414] [G loss: -0.112029]
+Test accuracy: 0.8700000047683716
+P(y_hat=1 | z=0) = 0.346, P(y_hat=1 | z=1) = 0.724
+P(y_hat=1 | y=1, z=0) = 0.789, P(y_hat=1 | y=1, z=1) = 0.909
+Disparate Impact ratio = 0.478
+[Lambda_f: 0.150000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.150000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.150000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.150000] [Epoch 600/4000] [D_F loss: 0.634805] [D_R loss: 0.659638] [G loss: -0.223051]
+[Lambda_f: 0.150000] [Epoch 800/4000] [D_F loss: 0.619618] [D_R loss: 0.645900] [G loss: -0.211462]
+[Lambda_f: 0.150000] [Epoch 1000/4000] [D_F loss: 0.610668] [D_R loss: 0.635492] [G loss: -0.203444]
+[Lambda_f: 0.150000] [Epoch 1200/4000] [D_F loss: 0.609405] [D_R loss: 0.627235] [G loss: -0.196597]
+[Lambda_f: 0.150000] [Epoch 1400/4000] [D_F loss: 0.609588] [D_R loss: 0.619949] [G loss: -0.191230]
+[Lambda_f: 0.150000] [Epoch 1600/4000] [D_F loss: 0.610367] [D_R loss: 0.613196] [G loss: -0.186900]
+[Lambda_f: 0.150000] [Epoch 1800/4000] [D_F loss: 0.611445] [D_R loss: 0.606794] [G loss: -0.183269]
+[Lambda_f: 0.150000] [Epoch 2000/4000] [D_F loss: 0.612631] [D_R loss: 0.600573] [G loss: -0.180199]
+[Lambda_f: 0.150000] [Epoch 2200/4000] [D_F loss: 0.613789] [D_R loss: 0.594479] [G loss: -0.177427]
+[Lambda_f: 0.150000] [Epoch 2400/4000] [D_F loss: 0.614833] [D_R loss: 0.588476] [G loss: -0.174901]
+[Lambda_f: 0.150000] [Epoch 2600/4000] [D_F loss: 0.615764] [D_R loss: 0.582510] [G loss: -0.172587]
+[Lambda_f: 0.150000] [Epoch 2800/4000] [D_F loss: 0.616558] [D_R loss: 0.576554] [G loss: -0.170359]
+[Lambda_f: 0.150000] [Epoch 3000/4000] [D_F loss: 0.617212] [D_R loss: 0.570581] [G loss: -0.168209]
+[Lambda_f: 0.150000] [Epoch 3200/4000] [D_F loss: 0.617755] [D_R loss: 0.564606] [G loss: -0.166178]
+[Lambda_f: 0.150000] [Epoch 3400/4000] [D_F loss: 0.618195] [D_R loss: 0.558640] [G loss: -0.164155]
+[Lambda_f: 0.150000] [Epoch 3600/4000] [D_F loss: 0.618540] [D_R loss: 0.552688] [G loss: -0.162148]
+[Lambda_f: 0.150000] [Epoch 3800/4000] [D_F loss: 0.618816] [D_R loss: 0.546728] [G loss: -0.160189]
+Test accuracy: 0.8700000047683716
+P(y_hat=1 | z=0) = 0.356, P(y_hat=1 | z=1) = 0.714
+P(y_hat=1 | y=1, z=0) = 0.809, P(y_hat=1 | y=1, z=1) = 0.900
+Disparate Impact ratio = 0.498
+[Lambda_f: 0.200000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.200000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.200000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.200000] [Epoch 600/4000] [D_F loss: 0.643948] [D_R loss: 0.660246] [G loss: -0.271835]
+[Lambda_f: 0.200000] [Epoch 800/4000] [D_F loss: 0.631415] [D_R loss: 0.647248] [G loss: -0.258287]
+[Lambda_f: 0.200000] [Epoch 1000/4000] [D_F loss: 0.622652] [D_R loss: 0.637766] [G loss: -0.250906]
+[Lambda_f: 0.200000] [Epoch 1200/4000] [D_F loss: 0.621980] [D_R loss: 0.630275] [G loss: -0.244677]
+[Lambda_f: 0.200000] [Epoch 1400/4000] [D_F loss: 0.622673] [D_R loss: 0.623305] [G loss: -0.239593]
+[Lambda_f: 0.200000] [Epoch 1600/4000] [D_F loss: 0.623653] [D_R loss: 0.616965] [G loss: -0.235462]
+[Lambda_f: 0.200000] [Epoch 1800/4000] [D_F loss: 0.624814] [D_R loss: 0.611012] [G loss: -0.232089]
+[Lambda_f: 0.200000] [Epoch 2000/4000] [D_F loss: 0.626030] [D_R loss: 0.605220] [G loss: -0.229245]
+[Lambda_f: 0.200000] [Epoch 2200/4000] [D_F loss: 0.627186] [D_R loss: 0.599527] [G loss: -0.226674]
+[Lambda_f: 0.200000] [Epoch 2400/4000] [D_F loss: 0.628219] [D_R loss: 0.593893] [G loss: -0.224323]
+[Lambda_f: 0.200000] [Epoch 2600/4000] [D_F loss: 0.629135] [D_R loss: 0.588254] [G loss: -0.222166]
+[Lambda_f: 0.200000] [Epoch 2800/4000] [D_F loss: 0.629918] [D_R loss: 0.582596] [G loss: -0.220061]
+[Lambda_f: 0.200000] [Epoch 3000/4000] [D_F loss: 0.630565] [D_R loss: 0.576921] [G loss: -0.218026]
+[Lambda_f: 0.200000] [Epoch 3200/4000] [D_F loss: 0.631107] [D_R loss: 0.571212] [G loss: -0.216095]
+[Lambda_f: 0.200000] [Epoch 3400/4000] [D_F loss: 0.631550] [D_R loss: 0.565512] [G loss: -0.214144]
+[Lambda_f: 0.200000] [Epoch 3600/4000] [D_F loss: 0.631903] [D_R loss: 0.559824] [G loss: -0.212208]
+[Lambda_f: 0.200000] [Epoch 3800/4000] [D_F loss: 0.632189] [D_R loss: 0.554125] [G loss: -0.210321]
+Test accuracy: 0.8669999837875366
+P(y_hat=1 | z=0) = 0.368, P(y_hat=1 | z=1) = 0.700
+P(y_hat=1 | y=1, z=0) = 0.809, P(y_hat=1 | y=1, z=1) = 0.897
+Disparate Impact ratio = 0.526
+[Lambda_f: 0.250000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.250000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.250000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.250000] [Epoch 600/4000] [D_F loss: 0.653061] [D_R loss: 0.660864] [G loss: -0.321715]
+[Lambda_f: 0.250000] [Epoch 800/4000] [D_F loss: 0.642181] [D_R loss: 0.648655] [G loss: -0.306124]
+[Lambda_f: 0.250000] [Epoch 1000/4000] [D_F loss: 0.634148] [D_R loss: 0.640113] [G loss: -0.299487]
+[Lambda_f: 0.250000] [Epoch 1200/4000] [D_F loss: 0.633879] [D_R loss: 0.633694] [G loss: -0.294023]
+[Lambda_f: 0.250000] [Epoch 1400/4000] [D_F loss: 0.635157] [D_R loss: 0.627514] [G loss: -0.289510]
+[Lambda_f: 0.250000] [Epoch 1600/4000] [D_F loss: 0.636386] [D_R loss: 0.621759] [G loss: -0.285752]
+[Lambda_f: 0.250000] [Epoch 1800/4000] [D_F loss: 0.637628] [D_R loss: 0.616319] [G loss: -0.282604]
+[Lambda_f: 0.250000] [Epoch 2000/4000] [D_F loss: 0.638847] [D_R loss: 0.611031] [G loss: -0.279963]
+[Lambda_f: 0.250000] [Epoch 2200/4000] [D_F loss: 0.639964] [D_R loss: 0.605828] [G loss: -0.277574]
+[Lambda_f: 0.250000] [Epoch 2400/4000] [D_F loss: 0.640939] [D_R loss: 0.600663] [G loss: -0.275415]
+[Lambda_f: 0.250000] [Epoch 2600/4000] [D_F loss: 0.641792] [D_R loss: 0.595467] [G loss: -0.273428]
+[Lambda_f: 0.250000] [Epoch 2800/4000] [D_F loss: 0.642517] [D_R loss: 0.590219] [G loss: -0.271471]
+[Lambda_f: 0.250000] [Epoch 3000/4000] [D_F loss: 0.643116] [D_R loss: 0.584946] [G loss: -0.269585]
+[Lambda_f: 0.250000] [Epoch 3200/4000] [D_F loss: 0.643620] [D_R loss: 0.579625] [G loss: -0.267795]
+[Lambda_f: 0.250000] [Epoch 3400/4000] [D_F loss: 0.644035] [D_R loss: 0.574281] [G loss: -0.265999]
+[Lambda_f: 0.250000] [Epoch 3600/4000] [D_F loss: 0.644370] [D_R loss: 0.568939] [G loss: -0.264204]
+[Lambda_f: 0.250000] [Epoch 3800/4000] [D_F loss: 0.644646] [D_R loss: 0.563595] [G loss: -0.262450]
+Test accuracy: 0.859000027179718
+P(y_hat=1 | z=0) = 0.372, P(y_hat=1 | z=1) = 0.681
+P(y_hat=1 | y=1, z=0) = 0.814, P(y_hat=1 | y=1, z=1) = 0.872
+Disparate Impact ratio = 0.545
+[Lambda_f: 0.300000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.300000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.300000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.300000] [Epoch 600/4000] [D_F loss: 0.662107] [D_R loss: 0.661501] [G loss: -0.372718]
+[Lambda_f: 0.300000] [Epoch 800/4000] [D_F loss: 0.651706] [D_R loss: 0.650084] [G loss: -0.355034]
+[Lambda_f: 0.300000] [Epoch 1000/4000] [D_F loss: 0.645063] [D_R loss: 0.642351] [G loss: -0.349090]
+[Lambda_f: 0.300000] [Epoch 1200/4000] [D_F loss: 0.644987] [D_R loss: 0.637271] [G loss: -0.344594]
+[Lambda_f: 0.300000] [Epoch 1400/4000] [D_F loss: 0.646816] [D_R loss: 0.632177] [G loss: -0.340817]
+[Lambda_f: 0.300000] [Epoch 1600/4000] [D_F loss: 0.648355] [D_R loss: 0.627347] [G loss: -0.337634]
+[Lambda_f: 0.300000] [Epoch 1800/4000] [D_F loss: 0.649677] [D_R loss: 0.622661] [G loss: -0.334911]
+[Lambda_f: 0.300000] [Epoch 2000/4000] [D_F loss: 0.650870] [D_R loss: 0.618046] [G loss: -0.332561]
+[Lambda_f: 0.300000] [Epoch 2200/4000] [D_F loss: 0.651902] [D_R loss: 0.613439] [G loss: -0.330377]
+[Lambda_f: 0.300000] [Epoch 2400/4000] [D_F loss: 0.652767] [D_R loss: 0.608801] [G loss: -0.328350]
+[Lambda_f: 0.300000] [Epoch 2600/4000] [D_F loss: 0.653504] [D_R loss: 0.604116] [G loss: -0.326502]
+[Lambda_f: 0.300000] [Epoch 2800/4000] [D_F loss: 0.654121] [D_R loss: 0.599384] [G loss: -0.324714]
+[Lambda_f: 0.300000] [Epoch 3000/4000] [D_F loss: 0.654626] [D_R loss: 0.594592] [G loss: -0.323001]
+[Lambda_f: 0.300000] [Epoch 3200/4000] [D_F loss: 0.655051] [D_R loss: 0.589758] [G loss: -0.321370]
+[Lambda_f: 0.300000] [Epoch 3400/4000] [D_F loss: 0.655403] [D_R loss: 0.584865] [G loss: -0.319711]
+[Lambda_f: 0.300000] [Epoch 3600/4000] [D_F loss: 0.655691] [D_R loss: 0.579947] [G loss: -0.318063]
+[Lambda_f: 0.300000] [Epoch 3800/4000] [D_F loss: 0.655932] [D_R loss: 0.575017] [G loss: -0.316473]
+Test accuracy: 0.8579999804496765
+P(y_hat=1 | z=0) = 0.389, P(y_hat=1 | z=1) = 0.660
+P(y_hat=1 | y=1, z=0) = 0.839, P(y_hat=1 | y=1, z=1) = 0.856
+Disparate Impact ratio = 0.589
+[Lambda_f: 0.350000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.350000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.350000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.350000] [Epoch 600/4000] [D_F loss: 0.671040] [D_R loss: 0.662167] [G loss: -0.424896]
+[Lambda_f: 0.350000] [Epoch 800/4000] [D_F loss: 0.659913] [D_R loss: 0.651586] [G loss: -0.405198]
+[Lambda_f: 0.350000] [Epoch 1000/4000] [D_F loss: 0.655219] [D_R loss: 0.644366] [G loss: -0.399667]
+[Lambda_f: 0.350000] [Epoch 1200/4000] [D_F loss: 0.655259] [D_R loss: 0.640765] [G loss: -0.396333]
+[Lambda_f: 0.350000] [Epoch 1400/4000] [D_F loss: 0.657422] [D_R loss: 0.637089] [G loss: -0.393518]
+[Lambda_f: 0.350000] [Epoch 1600/4000] [D_F loss: 0.659277] [D_R loss: 0.633456] [G loss: -0.391079]
+[Lambda_f: 0.350000] [Epoch 1800/4000] [D_F loss: 0.660665] [D_R loss: 0.629818] [G loss: -0.388938]
+[Lambda_f: 0.350000] [Epoch 2000/4000] [D_F loss: 0.661778] [D_R loss: 0.626089] [G loss: -0.387003]
+[Lambda_f: 0.350000] [Epoch 2200/4000] [D_F loss: 0.662663] [D_R loss: 0.622220] [G loss: -0.385099]
+[Lambda_f: 0.350000] [Epoch 2400/4000] [D_F loss: 0.663357] [D_R loss: 0.618221] [G loss: -0.383271]
+[Lambda_f: 0.350000] [Epoch 2600/4000] [D_F loss: 0.663923] [D_R loss: 0.614131] [G loss: -0.381589]
+[Lambda_f: 0.350000] [Epoch 2800/4000] [D_F loss: 0.664382] [D_R loss: 0.609930] [G loss: -0.379928]
+[Lambda_f: 0.350000] [Epoch 3000/4000] [D_F loss: 0.664754] [D_R loss: 0.605664] [G loss: -0.378326]
+[Lambda_f: 0.350000] [Epoch 3200/4000] [D_F loss: 0.665066] [D_R loss: 0.601338] [G loss: -0.376810]
+[Lambda_f: 0.350000] [Epoch 3400/4000] [D_F loss: 0.665327] [D_R loss: 0.596960] [G loss: -0.375287]
+[Lambda_f: 0.350000] [Epoch 3600/4000] [D_F loss: 0.665543] [D_R loss: 0.592542] [G loss: -0.373772]
+[Lambda_f: 0.350000] [Epoch 3800/4000] [D_F loss: 0.665727] [D_R loss: 0.588092] [G loss: -0.372311]
+Test accuracy: 0.8569999933242798
+P(y_hat=1 | z=0) = 0.398, P(y_hat=1 | z=1) = 0.646
+P(y_hat=1 | y=1, z=0) = 0.859, P(y_hat=1 | y=1, z=1) = 0.841
+Disparate Impact ratio = 0.616
+[Lambda_f: 0.400000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.400000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.400000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.400000] [Epoch 600/4000] [D_F loss: 0.679741] [D_R loss: 0.662866] [G loss: -0.478342]
+[Lambda_f: 0.400000] [Epoch 800/4000] [D_F loss: 0.666789] [D_R loss: 0.653090] [G loss: -0.456736]
+[Lambda_f: 0.400000] [Epoch 1000/4000] [D_F loss: 0.664366] [D_R loss: 0.646109] [G loss: -0.451210]
+[Lambda_f: 0.400000] [Epoch 1200/4000] [D_F loss: 0.664629] [D_R loss: 0.643807] [G loss: -0.449032]
+[Lambda_f: 0.400000] [Epoch 1400/4000] [D_F loss: 0.666757] [D_R loss: 0.641877] [G loss: -0.447466]
+[Lambda_f: 0.400000] [Epoch 1600/4000] [D_F loss: 0.668755] [D_R loss: 0.639773] [G loss: -0.445996]
+[Lambda_f: 0.400000] [Epoch 1800/4000] [D_F loss: 0.670143] [D_R loss: 0.637406] [G loss: -0.444538]
+[Lambda_f: 0.400000] [Epoch 2000/4000] [D_F loss: 0.671101] [D_R loss: 0.634725] [G loss: -0.443065]
+[Lambda_f: 0.400000] [Epoch 2200/4000] [D_F loss: 0.671767] [D_R loss: 0.631724] [G loss: -0.441475]
+[Lambda_f: 0.400000] [Epoch 2400/4000] [D_F loss: 0.672240] [D_R loss: 0.628470] [G loss: -0.439893]
+[Lambda_f: 0.400000] [Epoch 2600/4000] [D_F loss: 0.672600] [D_R loss: 0.625015] [G loss: -0.438374]
+[Lambda_f: 0.400000] [Epoch 2800/4000] [D_F loss: 0.672882] [D_R loss: 0.621418] [G loss: -0.436861]
+[Lambda_f: 0.400000] [Epoch 3000/4000] [D_F loss: 0.673107] [D_R loss: 0.617752] [G loss: -0.435389]
+[Lambda_f: 0.400000] [Epoch 3200/4000] [D_F loss: 0.673298] [D_R loss: 0.613994] [G loss: -0.433994]
+[Lambda_f: 0.400000] [Epoch 3400/4000] [D_F loss: 0.673459] [D_R loss: 0.610161] [G loss: -0.432583]
+[Lambda_f: 0.400000] [Epoch 3600/4000] [D_F loss: 0.673595] [D_R loss: 0.606292] [G loss: -0.431200]
+[Lambda_f: 0.400000] [Epoch 3800/4000] [D_F loss: 0.673713] [D_R loss: 0.602383] [G loss: -0.429867]
+Test accuracy: 0.8479999899864197
+P(y_hat=1 | z=0) = 0.421, P(y_hat=1 | z=1) = 0.637
+P(y_hat=1 | y=1, z=0) = 0.879, P(y_hat=1 | y=1, z=1) = 0.828
+Disparate Impact ratio = 0.660
+[Lambda_f: 0.450000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.450000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.450000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.450000] [Epoch 600/4000] [D_F loss: 0.688009] [D_R loss: 0.663577] [G loss: -0.533117]
+[Lambda_f: 0.450000] [Epoch 800/4000] [D_F loss: 0.672316] [D_R loss: 0.654459] [G loss: -0.509518]
+[Lambda_f: 0.450000] [Epoch 1000/4000] [D_F loss: 0.672253] [D_R loss: 0.647732] [G loss: -0.503930]
+[Lambda_f: 0.450000] [Epoch 1200/4000] [D_F loss: 0.672869] [D_R loss: 0.645960] [G loss: -0.502332]
+[Lambda_f: 0.450000] [Epoch 1400/4000] [D_F loss: 0.674590] [D_R loss: 0.645674] [G loss: -0.502034]
+[Lambda_f: 0.450000] [Epoch 1600/4000] [D_F loss: 0.676326] [D_R loss: 0.645350] [G loss: -0.501794]
+[Lambda_f: 0.450000] [Epoch 1800/4000] [D_F loss: 0.677529] [D_R loss: 0.644513] [G loss: -0.501243]
+[Lambda_f: 0.450000] [Epoch 2000/4000] [D_F loss: 0.678259] [D_R loss: 0.643059] [G loss: -0.500355]
+[Lambda_f: 0.450000] [Epoch 2200/4000] [D_F loss: 0.678682] [D_R loss: 0.641040] [G loss: -0.499152]
+[Lambda_f: 0.450000] [Epoch 2400/4000] [D_F loss: 0.678943] [D_R loss: 0.638604] [G loss: -0.497812]
+[Lambda_f: 0.450000] [Epoch 2600/4000] [D_F loss: 0.679128] [D_R loss: 0.635869] [G loss: -0.496463]
+[Lambda_f: 0.450000] [Epoch 2800/4000] [D_F loss: 0.679266] [D_R loss: 0.632961] [G loss: -0.495109]
+[Lambda_f: 0.450000] [Epoch 3000/4000] [D_F loss: 0.679375] [D_R loss: 0.629942] [G loss: -0.493774]
+[Lambda_f: 0.450000] [Epoch 3200/4000] [D_F loss: 0.679469] [D_R loss: 0.626820] [G loss: -0.492504]
+[Lambda_f: 0.450000] [Epoch 3400/4000] [D_F loss: 0.679549] [D_R loss: 0.623627] [G loss: -0.491226]
+[Lambda_f: 0.450000] [Epoch 3600/4000] [D_F loss: 0.679618] [D_R loss: 0.620386] [G loss: -0.489975]
+[Lambda_f: 0.450000] [Epoch 3800/4000] [D_F loss: 0.679679] [D_R loss: 0.617074] [G loss: -0.488769]
+Test accuracy: 0.8420000076293945
+P(y_hat=1 | z=0) = 0.435, P(y_hat=1 | z=1) = 0.623
+P(y_hat=1 | y=1, z=0) = 0.894, P(y_hat=1 | y=1, z=1) = 0.812
+Disparate Impact ratio = 0.698
+[Lambda_f: 0.520000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.520000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.520000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.520000] [Epoch 600/4000] [D_F loss: 0.698564] [D_R loss: 0.664564] [G loss: -0.611978]
+[Lambda_f: 0.520000] [Epoch 800/4000] [D_F loss: 0.678078] [D_R loss: 0.656079] [G loss: -0.585430]
+[Lambda_f: 0.520000] [Epoch 1000/4000] [D_F loss: 0.680383] [D_R loss: 0.649539] [G loss: -0.579921]
+[Lambda_f: 0.520000] [Epoch 1200/4000] [D_F loss: 0.681666] [D_R loss: 0.647232] [G loss: -0.577817]
+[Lambda_f: 0.520000] [Epoch 1400/4000] [D_F loss: 0.682583] [D_R loss: 0.647160] [G loss: -0.577652]
+[Lambda_f: 0.520000] [Epoch 1600/4000] [D_F loss: 0.683273] [D_R loss: 0.647923] [G loss: -0.578256]
+[Lambda_f: 0.520000] [Epoch 1800/4000] [D_F loss: 0.683761] [D_R loss: 0.648850] [G loss: -0.579024]
+[Lambda_f: 0.520000] [Epoch 2000/4000] [D_F loss: 0.684081] [D_R loss: 0.649497] [G loss: -0.579528]
+[Lambda_f: 0.520000] [Epoch 2200/4000] [D_F loss: 0.684273] [D_R loss: 0.649609] [G loss: -0.579672]
+[Lambda_f: 0.520000] [Epoch 2400/4000] [D_F loss: 0.684391] [D_R loss: 0.649102] [G loss: -0.579400]
+[Lambda_f: 0.520000] [Epoch 2600/4000] [D_F loss: 0.684472] [D_R loss: 0.648086] [G loss: -0.578832]
+[Lambda_f: 0.520000] [Epoch 2800/4000] [D_F loss: 0.684527] [D_R loss: 0.646652] [G loss: -0.578029]
+[Lambda_f: 0.520000] [Epoch 3000/4000] [D_F loss: 0.684565] [D_R loss: 0.644930] [G loss: -0.577106]
+[Lambda_f: 0.520000] [Epoch 3200/4000] [D_F loss: 0.684593] [D_R loss: 0.642985] [G loss: -0.576146]
+[Lambda_f: 0.520000] [Epoch 3400/4000] [D_F loss: 0.684614] [D_R loss: 0.640891] [G loss: -0.575132]
+[Lambda_f: 0.520000] [Epoch 3600/4000] [D_F loss: 0.684632] [D_R loss: 0.638686] [G loss: -0.574118]
+[Lambda_f: 0.520000] [Epoch 3800/4000] [D_F loss: 0.684647] [D_R loss: 0.636386] [G loss: -0.573132]
+Test accuracy: 0.8220000267028809
+P(y_hat=1 | z=0) = 0.449, P(y_hat=1 | z=1) = 0.595
+P(y_hat=1 | y=1, z=0) = 0.894, P(y_hat=1 | y=1, z=1) = 0.775
+Disparate Impact ratio = 0.754
+-----------------------------------------------------------------------------------
+------------------ Training Results of FR-Train on poisoned data ------------------
+[Lambda_f: 0.10] [Lambda_r: 0.40] Accuracy : 0.870, Disparate Impact : 0.478, Training time : 7.434 s, Testing time : 0.001 s
+[Lambda_f: 0.15] [Lambda_r: 0.40] Accuracy : 0.870, Disparate Impact : 0.498, Training time : 7.218 s, Testing time : 0.001 s
+[Lambda_f: 0.20] [Lambda_r: 0.40] Accuracy : 0.867, Disparate Impact : 0.526, Training time : 7.790 s, Testing time : 0.001 s
+[Lambda_f: 0.25] [Lambda_r: 0.40] Accuracy : 0.859, Disparate Impact : 0.545, Training time : 7.872 s, Testing time : 0.000 s
+[Lambda_f: 0.30] [Lambda_r: 0.40] Accuracy : 0.858, Disparate Impact : 0.589, Training time : 8.073 s, Testing time : 0.000 s
+[Lambda_f: 0.35] [Lambda_r: 0.40] Accuracy : 0.857, Disparate Impact : 0.616, Training time : 8.192 s, Testing time : 0.000 s
+[Lambda_f: 0.40] [Lambda_r: 0.40] Accuracy : 0.848, Disparate Impact : 0.660, Training time : 8.047 s, Testing time : 0.000 s
+[Lambda_f: 0.45] [Lambda_r: 0.40] Accuracy : 0.842, Disparate Impact : 0.698, Training time : 7.684 s, Testing time : 0.001 s
+[Lambda_f: 0.52] [Lambda_r: 0.40] Accuracy : 0.822, Disparate Impact : 0.754, Training time : 7.631 s, Testing time : 0.001 s
+-----------------------------------------------------------------------------------
+[Lambda_f: 0.000000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.000000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.000000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.000000] [Epoch 600/4000] [D_F loss: 0.605639] [D_R loss: 0.658912] [G loss: -0.204466]
+[Lambda_f: 0.000000] [Epoch 800/4000] [D_F loss: 0.585721] [D_R loss: 0.644623] [G loss: -0.193702]
+[Lambda_f: 0.000000] [Epoch 1000/4000] [D_F loss: 0.575677] [D_R loss: 0.633849] [G loss: -0.182859]
+[Lambda_f: 0.000000] [Epoch 1200/4000] [D_F loss: 0.571320] [D_R loss: 0.625321] [G loss: -0.173820]
+[Lambda_f: 0.000000] [Epoch 1400/4000] [D_F loss: 0.569325] [D_R loss: 0.617376] [G loss: -0.165987]
+[Lambda_f: 0.000000] [Epoch 1600/4000] [D_F loss: 0.568655] [D_R loss: 0.609877] [G loss: -0.159225]
+[Lambda_f: 0.000000] [Epoch 1800/4000] [D_F loss: 0.568711] [D_R loss: 0.602790] [G loss: -0.153501]
+[Lambda_f: 0.000000] [Epoch 2000/4000] [D_F loss: 0.569160] [D_R loss: 0.595999] [G loss: -0.148638]
+[Lambda_f: 0.000000] [Epoch 2200/4000] [D_F loss: 0.569798] [D_R loss: 0.589382] [G loss: -0.144344]
+[Lambda_f: 0.000000] [Epoch 2400/4000] [D_F loss: 0.570489] [D_R loss: 0.582910] [G loss: -0.140513]
+[Lambda_f: 0.000000] [Epoch 2600/4000] [D_F loss: 0.571181] [D_R loss: 0.576531] [G loss: -0.137057]
+[Lambda_f: 0.000000] [Epoch 2800/4000] [D_F loss: 0.571820] [D_R loss: 0.570199] [G loss: -0.133841]
+[Lambda_f: 0.000000] [Epoch 3000/4000] [D_F loss: 0.572378] [D_R loss: 0.563887] [G loss: -0.130808]
+[Lambda_f: 0.000000] [Epoch 3200/4000] [D_F loss: 0.572867] [D_R loss: 0.557603] [G loss: -0.127932]
+[Lambda_f: 0.000000] [Epoch 3400/4000] [D_F loss: 0.573278] [D_R loss: 0.551327] [G loss: -0.125150]
+[Lambda_f: 0.000000] [Epoch 3600/4000] [D_F loss: 0.573612] [D_R loss: 0.545049] [G loss: -0.122412]
+[Lambda_f: 0.000000] [Epoch 3800/4000] [D_F loss: 0.573889] [D_R loss: 0.538798] [G loss: -0.119764]
+Test accuracy: 0.8830000162124634
+P(y_hat=1 | z=0) = 0.314, P(y_hat=1 | z=1) = 0.759
+P(y_hat=1 | y=1, z=0) = 0.759, P(y_hat=1 | y=1, z=1) = 0.944
+Disparate Impact ratio = 0.414
+-----------------------------------------------------------------------------------
+------------------ Training Results of FR-Train on poisoned data ------------------
+[Lambda_f: 0.00] [Lambda_r: 0.52] Accuracy : 0.883, Disparate Impact : 0.414, Training time : 7.797 s, Testing time : 0.000 s
+-----------------------------------------------------------------------------------
+[Lambda_f: 0.400000] [Epoch 0/4000] [D_F loss: 0.686340] [D_R loss: 0.716233] [G loss: 0.465272]
+[Lambda_f: 0.400000] [Epoch 200/4000] [D_F loss: 0.584360] [D_R loss: 0.680139] [G loss: 0.312735]
+[Lambda_f: 0.400000] [Epoch 400/4000] [D_F loss: 0.577822] [D_R loss: 0.673043] [G loss: 0.312282]
+[Lambda_f: 0.400000] [Epoch 600/4000] [D_F loss: 0.670634] [D_R loss: 0.660115] [G loss: -0.057898]
+[Lambda_f: 0.400000] [Epoch 800/4000] [D_F loss: 0.637497] [D_R loss: 0.645414] [G loss: -0.050606]
+[Lambda_f: 0.400000] [Epoch 1000/4000] [D_F loss: 0.630883] [D_R loss: 0.637048] [G loss: -0.053487]
+[Lambda_f: 0.400000] [Epoch 1200/4000] [D_F loss: 0.633429] [D_R loss: 0.630027] [G loss: -0.054890]
+[Lambda_f: 0.400000] [Epoch 1400/4000] [D_F loss: 0.635260] [D_R loss: 0.623689] [G loss: -0.055870]
+[Lambda_f: 0.400000] [Epoch 1600/4000] [D_F loss: 0.636947] [D_R loss: 0.617896] [G loss: -0.056463]
+[Lambda_f: 0.400000] [Epoch 1800/4000] [D_F loss: 0.638377] [D_R loss: 0.612365] [G loss: -0.056837]
+[Lambda_f: 0.400000] [Epoch 2000/4000] [D_F loss: 0.639550] [D_R loss: 0.606937] [G loss: -0.057110]
+[Lambda_f: 0.400000] [Epoch 2200/4000] [D_F loss: 0.640474] [D_R loss: 0.601581] [G loss: -0.057235]
+[Lambda_f: 0.400000] [Epoch 2400/4000] [D_F loss: 0.641179] [D_R loss: 0.596235] [G loss: -0.057298]
+[Lambda_f: 0.400000] [Epoch 2600/4000] [D_F loss: 0.641723] [D_R loss: 0.590879] [G loss: -0.057361]
+[Lambda_f: 0.400000] [Epoch 2800/4000] [D_F loss: 0.642136] [D_R loss: 0.585516] [G loss: -0.057360]
+[Lambda_f: 0.400000] [Epoch 3000/4000] [D_F loss: 0.642441] [D_R loss: 0.580171] [G loss: -0.057347]
+[Lambda_f: 0.400000] [Epoch 3200/4000] [D_F loss: 0.642670] [D_R loss: 0.574820] [G loss: -0.057359]
+[Lambda_f: 0.400000] [Epoch 3400/4000] [D_F loss: 0.642838] [D_R loss: 0.569483] [G loss: -0.057333]
+[Lambda_f: 0.400000] [Epoch 3600/4000] [D_F loss: 0.642959] [D_R loss: 0.564174] [G loss: -0.057305]
+[Lambda_f: 0.400000] [Epoch 3800/4000] [D_F loss: 0.643045] [D_R loss: 0.558867] [G loss: -0.057307]
+Test accuracy: 0.8600000143051147
+P(y_hat=1 | z=0) = 0.372, P(y_hat=1 | z=1) = 0.684
+P(y_hat=1 | y=1, z=0) = 0.814, P(y_hat=1 | y=1, z=1) = 0.875
+Disparate Impact ratio = 0.544
+-----------------------------------------------------------------------------------
+------------------ Training Results of FR-Train on poisoned data ------------------
+[Lambda_f: 0.40] [Lambda_r: 0.00] Accuracy : 0.860, Disparate Impact : 0.544, Training time : 7.675 s, Testing time : 0.000 s
+-----------------------------------------------------------------------------------
+
+Process finished with exit code 0

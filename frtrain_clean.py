@@ -1,4 +1,4 @@
-
+import time
 import sys, os
 import numpy as np
 import math
@@ -147,6 +147,8 @@ def train_model(train_tensors, val_tensors, test_tensors, train_opt, lambda_f, l
     r_weight = torch.ones_like(y_train, requires_grad=False).float()
     r_ones = torch.ones_like(y_train, requires_grad=False).float()
 
+    start_time = time.time()
+
     for epoch in range(n_epochs):
 
         # -------------------
@@ -228,15 +230,16 @@ def train_model(train_tensors, val_tensors, test_tensors, train_opt, lambda_f, l
                 % (lambda_f, epoch, n_epochs, d_f_losses[-1], d_r_losses[-1], g_losses[-1])
             )
 
+    training_time = time.time() - start_time
+
     #     torch.save(generator.state_dict(), './FR-Train_on_clean_synthetic.pth')
+    start_time = time.time()
     tmp = test_model(generator, XS_test, y_test, s1_test)
+    testing_time = time.time() - start_time
     test_result.append([lambda_f, lambda_r, tmp[0].item(), tmp[1]])
 
-    return test_result
+    return test_result, training_time, testing_time
 
-
-
-train_result = []
 train_tensors = Namespace(XS_train = XS_train, y_train = y_train, s1_train = s1_train)
 val_tensors = Namespace(XS_val = XS_val, y_val = y_val, s1_val = s1_val)
 test_tensors = Namespace(XS_test = XS_test, y_test = y_test, s1_test = s1_test)
@@ -244,21 +247,48 @@ test_tensors = Namespace(XS_test = XS_test, y_test = y_test, s1_test = s1_test)
 train_opt = Namespace(val=len(y_val), n_epochs=4000, k=3, lr_g=0.005, lr_f=0.01, lr_r=0.001)
 seed = 1
 
-lambda_f_set = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.85] # Lambda value for the fairness discriminator of FR-Train.
-lambda_r = 0.1 # Lambda value for the robustness discriminator of FR-Train.
+
+def hyperparameter_search():
+    lambda_f_set = [0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.52]  # Lambda value for the fairness discriminator of FR-Train.
+    lambda_r = 0.4  # Lambda value for the robustness discriminator of FR-Train.
+    train_result = []
+    times = []
+
+    for lambda_f in lambda_f_set:
+        results, tr_time, te_time = train_model(train_tensors, val_tensors, test_tensors, train_opt, lambda_f=lambda_f,
+                                                lambda_r=lambda_r, seed=seed)
+        train_result.append(results)
+        times.append([tr_time, te_time])
+
+    print("-----------------------------------------------------------------------------------")
+    print("------------------ Training Results of FR-Train on poisoned data ------------------")
+    for i in range(len(train_result)):
+        print(
+            "[Lambda_f: %.2f] [Lambda_r: %.2f] Accuracy : %.3f, Disparate Impact : %.3f, Training time : %.3f s, Testing time : %.3f s "
+            % (train_result[i][0][0], train_result[i][0][1], train_result[i][0][2], train_result[i][0][3], times[i][0],
+               times[i][1])
+        )
+    print("-----------------------------------------------------------------------------------")
 
 
+def ablation_test(lambda_f, lambda_r):
+    results, tr_time, te_time = train_model(train_tensors, val_tensors, test_tensors, train_opt, lambda_f=lambda_f,
+                                            lambda_r=lambda_r, seed=seed)
+    train_result = []
+    times = []
+    train_result.append(results)
+    times.append([tr_time, te_time])
 
-for lambda_f in lambda_f_set:
-    train_result.append(train_model(train_tensors, val_tensors, test_tensors, train_opt, lambda_f = lambda_f, lambda_r = lambda_r, seed=seed))
+    print("-----------------------------------------------------------------------------------")
+    print("------------------ Training Results of FR-Train on poisoned data ------------------")
+    for i in range(len(train_result)):
+        print(
+            "[Lambda_f: %.2f] [Lambda_r: %.2f] Accuracy : %.3f, Disparate Impact : %.3f, Training time : %.3f s, Testing time : %.3f s "
+            % (train_result[i][0][0], train_result[i][0][1], train_result[i][0][2], train_result[i][0][3], times[i][0],
+               times[i][1])
+        )
+    print("-----------------------------------------------------------------------------------")
 
-
-
-print("--------------------------------------------------------------------------------")
-print("------------------ Training Results of FR-Train on clean data ------------------" )
-for i in range(len(train_result)):
-    print(
-        "[Lambda_f: %.2f] [Lambda_r: %.2f] Accuracy : %.3f, Disparate Impact : %.3f "
-        % (train_result[i][0][0], train_result[i][0][1], train_result[i][0][2], train_result[i][0][3])
-    )
-print("--------------------------------------------------------------------------------")
+hyperparameter_search()
+ablation_test(0.0, 0.52)
+ablation_test(0.4, 0.0)
