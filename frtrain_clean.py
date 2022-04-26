@@ -66,6 +66,11 @@ print(
 )
 print("--------------------------------------------------------------")
 
+def get_tensor_vals(tensors):
+    ans = []
+    for t in tensors:
+        ans.append(t.detach().numpy().item())
+    return ans
 
 def train_model(train_tensors, val_tensors, test_tensors, train_opt, lambda_f, lambda_r, seed):
     """
@@ -231,8 +236,20 @@ def train_model(train_tensors, val_tensors, test_tensors, train_opt, lambda_f, l
             )
 
     training_time = time.time() - start_time
-
+    g_losses = get_tensor_vals(g_losses)
+    d_f_losses = get_tensor_vals(d_f_losses)
+    d_r_losses = get_tensor_vals(d_r_losses)
     #     torch.save(generator.state_dict(), './FR-Train_on_clean_synthetic.pth')
+    plt.figure()
+    plt.title(f'Clean synthetic data with lambda1={lambda_f} lambda2={lambda_r}')
+    plt.plot(g_losses, label='g_loss')
+    plt.plot(d_f_losses, label='d_f_loss')
+    plt.plot(d_r_losses, label='d_r_loss')
+    plt.legend()
+    plt.xlabel('epoch')
+    plt.ylabel('loss')
+    #plt.show()
+
     start_time = time.time()
     tmp = test_model(generator, XS_test, y_test, s1_test)
     testing_time = time.time() - start_time
@@ -261,7 +278,7 @@ def hyperparameter_search():
         times.append([tr_time, te_time])
 
     print("-----------------------------------------------------------------------------------")
-    print("------------------ Training Results of FR-Train on poisoned data ------------------")
+    print("------------------ Training Results of FR-Train on clean data ------------------")
     for i in range(len(train_result)):
         print(
             "[Lambda_f: %.2f] [Lambda_r: %.2f] Accuracy : %.3f, Disparate Impact : %.3f, Training time : %.3f s, Testing time : %.3f s "
@@ -280,7 +297,7 @@ def ablation_test(lambda_f, lambda_r):
     times.append([tr_time, te_time])
 
     print("-----------------------------------------------------------------------------------")
-    print("------------------ Training Results of FR-Train on poisoned data ------------------")
+    print("------------------ Training Results of FR-Train on clean data ------------------")
     for i in range(len(train_result)):
         print(
             "[Lambda_f: %.2f] [Lambda_r: %.2f] Accuracy : %.3f, Disparate Impact : %.3f, Training time : %.3f s, Testing time : %.3f s "
@@ -292,3 +309,4 @@ def ablation_test(lambda_f, lambda_r):
 hyperparameter_search()
 ablation_test(0.0, 0.52)
 ablation_test(0.4, 0.0)
+plt.show()

@@ -200,3 +200,4 @@ def test_model(model_, X, y, s1):
 #     max_eo = max(Pr_y_hat_1_y_1_z_0, Pr_y_hat_1_y_1_z_1)
 #     print("Equal Opportunity ratio = {:.3f}".format(min_eo/max_eo))
     return test_acc, min_dp/max_dp
+
